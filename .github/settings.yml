@@ -1,0 +1,8 @@
+---
+#
+# Ansible managed
+#
+repository:
+  description: Test role for testing molecule
+  homepage: https://mesd.ag/
+  topics: ansible, molecule, tox, playbook, test, role

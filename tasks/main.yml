@@ -1,0 +1,7 @@
+---
+# tasks file for molecule_test
+
+- name: install httpd package
+  ansible.builtin.package:
+    name: httpd
+    state: present

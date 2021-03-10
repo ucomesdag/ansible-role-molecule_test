@@ -1,0 +1,41 @@
+---
+galaxy_info:
+  author: Uco Mesdag
+  namespace: ucomesdag
+  role_name: molecule_test
+  description: Test molecule.
+  license: Apache-2.0
+  company: none
+  min_ansible_version: "2.10"
+
+  platforms:
+    - name: Alpine
+      versions:
+        - all
+    - name: Amazon
+      versions:
+        - Candidate
+    - name: EL
+      versions:
+        - 7
+        - 8
+    - name: Debian
+      versions:
+        - buster
+        - bullseye
+    - name: Fedora
+      versions:
+        - 32
+    - name: OpenSUSE
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - focal
+        - bionic
+
+  galaxy_tags:
+    - molecule
+    - test
+
+dependencies: []
