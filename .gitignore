@@ -1,0 +1,6 @@
+.molecule
+.docker
+*.log
+*.swp
+.tox
+.cache
